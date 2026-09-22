@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RepForge | About</title>
+    <meta name="description" content="Learn about RepForge and contact us using the RepForge website form.">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<header class="site-header">
+
+    <div class="header-content">
+
+        <a href="index.html" class="logo-link" aria-label="RepForge home">
+            <span class="logo">RepForge</span>
+        </a>
+
+        <button class="menu-button" id="menu-button" type="button"
+                aria-label="Open navigation menu"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+            <a href="index.html">Home</a>
+            <a href="workouts.html">Workouts</a>
+            <a href="exercises.html">Exercises</a>
+            <a href="progress.html">Progress</a>
+            <a href="about.html">About</a>
+        </nav>
+
+    </div>
+
+</header>
+
+
+<main>
+
+    <section class="page-heading">
+
+        <p class="eyebrow">ABOUT REPFORGE</p>
+
+        <h1>About RepForge</h1>
+
+        <p>
+            A simple website project designed around workout tracking and organization.
+        </p>
+
+    </section>
+
+
+    <section class="content-section">
+
+        <div class="about-grid">
+
+            <div>
+
+                <p class="eyebrow">THE IDEA</p>
+
+                <h2>Simple Workout Tracking</h2>
+
+                <p>
+                    RepForge is designed to give users a straightforward way
+                    to record their workouts. The tracker focuses on a few
+                    important pieces of information: the training day,
+                    exercise, sets, reps, and weight.
+                </p>
+
+                <p>
+                    Keeping these details together can make a workout routine
+                    easier to organize and review.
+                </p>
+
+            </div>
+
+
+            <div class="info-card">
+
+                <h2>RepForge Includes</h2>
+
+                <ul class="exercise-list">
+
+                    <li>Workout tracking</li>
+                    <li>Workout history</li>
+                    <li>Exercise information</li>
+                    <li>Progress examples</li>
+                    <li>Responsive design</li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <section class="form-card">
+
+        <p class="eyebrow">CONTACT</p>
+
+        <h2>Contact RepForge</h2>
+
+        <p class="form-intro">
+            Have a question or suggestion? Complete the form below.
+        </p>
+
+
+        <form id="contact-form">
+
+            <div class="form-group">
+
+                <label for="contact-name">
+                    Name
+                </label>
+
+                <input
+                    type="text"
+                    id="contact-name"
+                    name="contact-name"
+                    placeholder="Your name"
+                    required
+                >
+
+                <span class="field-error" id="name-error"></span>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="contact-email">
+                    Email
+                </label>
+
+                <input
+                    type="email"
+                    id="contact-email"
+                    name="contact-email"
+                    placeholder="you@example.com"
+                    required
+                >
+
+                <span class="field-error" id="email-error"></span>
+
+            </div>
+
+
+            <div class="form-group">
+
+                <label for="contact-message">
+                    Message
+                </label>
+
+                <textarea
+                    id="contact-message"
+                    name="contact-message"
+                    rows="6"
+                    placeholder="Enter your message"
+                    required
+                ></textarea>
+
+                <span class="field-error" id="message-error"></span>
+
+            </div>
+
+
+            <button type="submit" class="button primary-button">
+                Send Message
+            </button>
+
+            <p
+                id="contact-success"
+                class="success-message"
+                aria-live="polite">
+            </p>
+
+        </form>
+
+    </section>
+
+
+    <section class="call-to-action">
+
+        <h2>Ready to Track a Workout?</h2>
+
+        <p>
+            Return to the workout tracker and record your next session.
+        </p>
+
+        <a href="workouts.html" class="button primary-button">
+            Go to Workouts
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer class="site-footer">
+
+    <div class="footer-content">
+
+        <div>
+            <h2 class="footer-logo">RepForge</h2>
+            <p>Track your workouts. Track your progress.</p>
+        </div>
+
+        <div>
+
+            <h3>Pages</h3>
+
+            <ul class="footer-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="workouts.html">Workouts</a></li>
+                <li><a href="exercises.html">Exercises</a></li>
+                <li><a href="progress.html">Progress</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 RepForge. All rights reserved.</p>
+    </div>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
